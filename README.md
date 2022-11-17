@@ -13,9 +13,9 @@
 2. update the system global .npmrc file with the below bolded, underlined line
 
 ```
-[//registry.npmjs.org/:_authToken=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](https://registry.npmjs.org/:_authToken=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)[//npm](https://npm.pkg.github.com/:_authToken=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)
+ 
 
-[**pkg.github.com/:_authToken=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**](https://npm.pkg.github.com/:_authToken=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)
+[**pkg.github.com/:_authToken=GENERATED_TOKEN**](https://npm.pkg.github.com/:_authToken=GENERATED_TOKEN)
 ```
 
 1. Create .npmrc in package project and add the line
