@@ -49,3 +49,28 @@ npm publish
 ```
 
 1. Goto "url":"[https://github.com/username/privatepackagepublishtogit](https://github.com/username/privatepackagepublishtogit)" packages to see the published package
+
+
+
+
+
+## Consume the package - example
+
+## —> Consume a private package in a project
+
+```js
+npm install @farooqmir/privatepackagepublishtogit
+```
+
+```json
+package.json
+
+"dependencies": {
+   "@farooqmir/privatepackagepublishtogit": "github:farooqmir/privatepackagepublishtogit",
+}
+```
+
+```js
+import greeting from "@farooqmir/privatepackagepublishtogit";
+greeting();
+```
